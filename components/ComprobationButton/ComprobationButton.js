@@ -25,7 +25,7 @@ export const ComprobationButton = () => {
         };
     
     };
-    alert(`Tu puntuación es de:${score} puntos`)
+    alert(`Tu puntuación es de: ${score} puntos 🎉🏆`)
 }
 )
 
