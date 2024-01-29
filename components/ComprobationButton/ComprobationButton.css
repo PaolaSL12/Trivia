@@ -1,0 +1,15 @@
+.containerButton {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton > button {
+    padding: var(--t-padding-s);
+    border-radius: var(--t-br);
+    background-color: #8320606f;;
+    border: 3px solid var(--t-highlight-color-ligth);
+    font-weight: 600;
+
+}

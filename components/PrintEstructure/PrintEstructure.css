@@ -1,0 +1,55 @@
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:15px;
+    margin: var(--t-margin-m);
+}
+
+.containerCard {
+    width: 100%;
+    height: 345px;
+    border: 5px solid var(--t-highlight-color-ligth);
+    border-radius: var(--t-br);
+    background-color: var(--t-primary-color);
+}
+
+.divQuestion {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.containerCard > ul {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerCard > ul > li{
+    width: 100%;
+   padding: var(--t-padding-s);
+   border: 3px solid var(--t-highlight-color-ligth);
+   border-radius: var(--t-br);
+   text-align: center;
+   margin: 5px 0;
+   background-color: #E3E2DD;
+   cursor: pointer;
+}
+
+.containerCard > ul > .selected {
+ background-color: #8320606f;
+}
+
+@media screen and (min-width:700px) {
+    #app {
+        gap:90px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}
